@@ -15,11 +15,11 @@ namespace BethanysPieShopHRM
 
             Console.WriteLine();
 
-            Manager mery = new Manager("Mery", "Jane", "mery@gmail.com", new DateTime(1990, 5, 12), 30);
-            mery.DisplayEmployeeDetails();
-            mery.PerformWork();
-            mery.ReceiveWage();
-            mery.AttendManagementMeeting();
+            Manager merry = new Manager("Merry", "Jane", "mery@gmail.com", new DateTime(1990, 5, 12), 30);
+            merry.DisplayEmployeeDetails();
+            merry.PerformWork();
+            merry.ReceiveWage();
+            merry.AttendManagementMeeting();
         }
     }
 }
