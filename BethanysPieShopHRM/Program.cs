@@ -1,4 +1,5 @@
 ﻿using System;
+using BethanysPieShopHRM.HR;
 
 namespace BethanysPieShopHRM
 {
@@ -7,7 +8,18 @@ namespace BethanysPieShopHRM
     {
         static void Main()
         {
-            Console.WriteLine("Hello, World");
+            Employee bethany = new Employee("Bethany", "Smith", "bethany@gmail.com", new DateTime(1979, 1, 16), 25);
+            bethany.DisplayEmployeeDetails();
+            bethany.PerformWork();
+            bethany.ReceiveWage();
+
+            Console.WriteLine();
+
+            Manager mery = new Manager("Mery", "Jane", "mery@gmail.com", new DateTime(1990, 5, 12), 30);
+            mery.DisplayEmployeeDetails();
+            mery.PerformWork();
+            mery.ReceiveWage();
+            mery.AttendManagementMeeting();
         }
     }
 }
