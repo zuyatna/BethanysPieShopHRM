@@ -3,8 +3,7 @@ using BethanysPieShopHRM.HR;
 
 namespace BethanysPieShopHRM
 {
-    // ReSharper disable once ClassNeverInstantiated.Global
-    class Program
+    static class Program
     {
         static void Main()
         {
